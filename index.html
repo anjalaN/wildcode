@@ -1,39 +1,41 @@
-<!DOCTYPE html>
-<html>
+!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>The box model</title>
-       <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The box model</title>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-
-<div class="navbar">
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
-</div>
- <main>
-       <h1 id="box1">The box model</h1>
-        <form class="box2">
-           <h2>Leave your message</h2>
-            <div class="box3">
-                <label for="name">Name</label><br>
-               <input type="text" id="name">
-           </div>
-           <div>
-               <label for="email">Email</label><br>
-               <input type="email" id="email">
+    <nav>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <a href="#">Services</a>
+    		<a href="#">Contact</a>
+        </ul>
+    </nav>
+    <main>
+        <h1>The box model</h1>
+        <form>
+            <h2>Leave your message</h2>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name">
             </div>
-           <div>
-                <label for="message">Message</label><br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="message">Message</label>
                 <textarea id="message" rows="10"></textarea>
             </div>
-            <br>
             <button type="submit">Submit</button>
         </form>
     </main>
+    <footer>&copy; Wilder</footer>
 </body>
 </html>
